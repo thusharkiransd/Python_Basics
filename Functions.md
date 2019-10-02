@@ -24,7 +24,7 @@ greeting()
 # ----- function with arguments -----
 def sum_two_numbers(num1, num2):
     total = num1 + num2
-    print("{} + {} = {}".format(num1, num2, total))
+    print(total)
 
 sum_two_numbers(3, 4)
 

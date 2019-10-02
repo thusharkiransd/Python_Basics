@@ -15,11 +15,16 @@
 
 # ----- function without arguments -----
 def greeting():
-    print("-----------------------------")
-    print("         Hello World         ")
-    print("-----------------------------")
+    print("Hello world")
+  
 
 greeting()
+#space function
+def space:
+    print(" ")
+    
+space()
+
 
 # ----- function with arguments -----
 def sum_two_numbers(num1, num2):

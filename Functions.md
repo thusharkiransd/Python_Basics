@@ -25,12 +25,20 @@ greeting()
 def sum_two_numbers(num1, num2):
     total = num1 + num2
     print("{} + {} = {}".format(num1, num2, total))
+    
+def swap(a,b):
+    a=a+b
+    b=a-b
+    a=a-b
+    print(a,b)
+    
+
 
 sum_two_numbers(3, 4)
 
 # ----- function with return value -----
 def num_square(num):
-    return num * num
+    return num * num   #Can use sqrt function which is user defined
 
 my_num = 3
 print(num_square(2))

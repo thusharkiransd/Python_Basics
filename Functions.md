@@ -62,7 +62,7 @@ $ ./functions.py
 ```python
 #!/usr/bin/python3
 
-# ----- function with default valued argument -----
+# ----- function with default valued ar
 def greeting(style_char='-'):
     print(style_char * 29)
     print("         Hello World         ")
